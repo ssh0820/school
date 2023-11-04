@@ -11,9 +11,6 @@
 ## ERD 
 ![ERD](docs/img/erd.png)
 
-## Trouble Shooting
-[go to the trouble shooting section](docs/TROUBLE_SHOOTING.md)
-
 ### Tech Stack
 <div align=center> 
   <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> 
