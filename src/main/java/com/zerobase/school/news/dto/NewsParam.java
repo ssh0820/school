@@ -6,6 +6,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.joda.time.DateTime;
 
+import java.util.List;
+
 public class NewsParam {
 
     @Data
@@ -32,5 +34,6 @@ public class NewsParam {
         private String link;
         private String description;
         private DateTime pubDate;
+        private List<Response> newsDtoList;
     }
 }
