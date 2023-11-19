@@ -23,6 +23,7 @@ public class SchoolService {
             if(schoolRepository.existsBySchoolCode(dto.getSchoolCode())){
                 break;
             }
+
             schoolRepository.save(School.builder()
                     .schoolCode(dto.getSchoolCode())
                     .name(dto.getName())
