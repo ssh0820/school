@@ -5,8 +5,8 @@ spring:
     host: 127.0.0.1
     port: 6379
   datasource:
-    url: jdbc:mysql://localhost:3306/school
-    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mariadb://localhost:3306/school
+    driver-class-name: org.mariadb.jdbc.Driver
     username: root
     password: 1234
   jpa:

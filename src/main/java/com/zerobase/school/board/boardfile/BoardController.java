@@ -10,4 +10,6 @@ public class BoardController {
     @DeleteMapping("/board/delete/{id}")
     public void boardDelete(@PathVariable Long id){
     boardService.boardDelete(id);}
+
+    //CRUD
 }
