@@ -7,12 +7,16 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
+
 @NoArgsConstructor
-@Entity @Builder @Data
+@Entity
+@Builder
+@Data
 @AllArgsConstructor
-public class Board {@Id
-@GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int bId;
+public class Board {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long bId;
     @Column
     private String bUserName;
     @Column
@@ -21,11 +25,11 @@ public class Board {@Id
     private String bTitle;
     @Column
     private String bContents;
-    //@Column private LocalDateTime createTime=LocalDateTime.now();//[6]
+
     public void bModify(MakeBoard makeBoard) {
-        this.bUserName=makeBoard.getBUserName();
-        this.bEmail=makeBoard.getBEmail();
-        this.bTitle=makeBoard.getBTitle();
-        this.bContents=makeBoard.getBContents();
+        this.bUserName = makeBoard.getBUserName();
+        this.bEmail = makeBoard.getBEmail();
+        this.bTitle = makeBoard.getBTitle();
+        this.bContents = makeBoard.getBContents();
     }
 }
