@@ -8,6 +8,9 @@
 - 로그인 기능
   - 사용자는 로그인을 할 수 있다. 로그인시 회원가입때 사용한 아이디와 패스워드가 일치해야한다.
 
+## Architecture
+![ERD](docs/img/architecture.png)
+
 ## ERD 
 ![ERD](docs/img/erd.png)
 
