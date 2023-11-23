@@ -1,6 +1,6 @@
 package com.zerobase.school.user.filter;
 
-import com.zerobase.school.user.config.JwtAuthenticationProvider;
+import com.zerobase.school.security.JWT.JwtAuthenticationProvider;
 import com.zerobase.school.user.dto.UserResponse;
 import com.zerobase.school.user.service.CustomerService;
 import lombok.RequiredArgsConstructor;

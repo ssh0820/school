@@ -1,5 +1,6 @@
-package com.zerobase.school.user.config;
+package com.zerobase.school.config;
 
+import com.zerobase.school.security.JWT.JwtAuthenticationProvider;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

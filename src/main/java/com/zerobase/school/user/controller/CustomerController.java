@@ -1,6 +1,6 @@
 package com.zerobase.school.user.controller;
 
-import com.zerobase.school.user.config.JwtAuthenticationProvider;
+import com.zerobase.school.security.JWT.JwtAuthenticationProvider;
 import com.zerobase.school.user.domain.entity.Customer;
 import com.zerobase.school.user.dto.CustomerDto;
 import com.zerobase.school.user.dto.UserResponse;

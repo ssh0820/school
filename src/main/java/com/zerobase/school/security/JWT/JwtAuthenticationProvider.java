@@ -1,4 +1,4 @@
-package com.zerobase.school.user.config;
+package com.zerobase.school.security.JWT;
 
 import com.zerobase.school.user.domain.UserType;
 import com.zerobase.school.user.dto.UserResponse;

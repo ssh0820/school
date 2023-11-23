@@ -38,7 +38,7 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok'
 
 	//mariaDB
-	//implementation 'org.mariadb.jdbc:mariadb-java-client:2.1.2'
+	implementation 'org.mariadb.jdbc:mariadb-java-client:2.1.2'
 
 	//mysql
 	runtimeOnly 'com.mysql:mysql-connector-j'
@@ -76,8 +76,12 @@ dependencies {
 	//feign
 	implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
 
+
 	//random
 	implementation 'org.apache.commons:commons-lang3:3.12.0'
+
+	// oauth2-client 라이브러리
+	implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
 }
 
 ext {
