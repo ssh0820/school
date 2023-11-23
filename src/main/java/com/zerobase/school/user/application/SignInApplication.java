@@ -1,7 +1,6 @@
 package com.zerobase.school.user.application;
 
 import com.zerobase.school.user.config.JwtAuthenticationProvider;
-import com.zerobase.school.user.domain.UserType;
 import com.zerobase.school.user.domain.entity.Customer;
 import com.zerobase.school.user.dto.SignInForm;
 import com.zerobase.school.user.exception.CustomException;
