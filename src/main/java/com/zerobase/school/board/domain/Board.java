@@ -1,12 +1,12 @@
-package com.zerobase.school.board;
+package com.zerobase.school.board.domain;
 
+import com.zerobase.school.board.dto.MakeBoard;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
-import java.time.LocalDateTime;
 
 @NoArgsConstructor
 @Entity

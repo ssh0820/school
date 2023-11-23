@@ -1,5 +1,8 @@
-package com.zerobase.school.board;
+package com.zerobase.school.board.service;
 
+import com.zerobase.school.board.repository.BoardRepository;
+import com.zerobase.school.board.dto.MakeBoard;
+import com.zerobase.school.board.domain.Board;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

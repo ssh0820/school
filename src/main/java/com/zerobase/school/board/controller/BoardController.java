@@ -1,5 +1,8 @@
-package com.zerobase.school.board;
+package com.zerobase.school.board.controller;
 
+import com.zerobase.school.board.domain.Board;
+import com.zerobase.school.board.dto.MakeBoard;
+import com.zerobase.school.board.service.BoardService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,5 +1,6 @@
-package com.zerobase.school.board;
+package com.zerobase.school.board.dto;
 
+import com.zerobase.school.board.domain.Board;
 import lombok.*;
 
 import javax.persistence.GeneratedValue;

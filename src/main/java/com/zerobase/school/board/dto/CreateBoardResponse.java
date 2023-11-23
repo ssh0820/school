@@ -1,4 +1,4 @@
-package com.zerobase.school.board;
+package com.zerobase.school.board.dto;
 
 import lombok.*;
 import org.springframework.data.annotation.CreatedBy;
