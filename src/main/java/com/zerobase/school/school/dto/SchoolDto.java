@@ -1,6 +1,6 @@
-package com.zerobase.school.user.dto;
+package com.zerobase.school.school.dto;
 
-import com.zerobase.school.user.domain.entity.School;
+import com.zerobase.school.school.domain.School;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;

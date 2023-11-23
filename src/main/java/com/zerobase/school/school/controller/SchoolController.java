@@ -1,10 +1,9 @@
-package com.zerobase.school.user.controller.school;
+package com.zerobase.school.school.controller;
 
 import com.zerobase.school.user.config.JwtAuthenticationProvider;
-import com.zerobase.school.user.dto.SchoolDto;
-import com.zerobase.school.user.dto.UserResponse;
-import com.zerobase.school.user.service.school.SchoolOpenAPIService;
-import com.zerobase.school.user.service.school.SchoolService;
+import com.zerobase.school.school.dto.SchoolDto;
+import com.zerobase.school.school.application.SchoolOpenAPI;
+import com.zerobase.school.school.service.SchoolService;
 import lombok.RequiredArgsConstructor;
 import org.json.simple.parser.ParseException;
 import org.springframework.http.ResponseEntity;
@@ -18,13 +17,13 @@ import java.io.IOException;
 public class SchoolController {
     private final JwtAuthenticationProvider provider;
     private final SchoolService schoolService;
-    private final SchoolOpenAPIService schoolOpenAPIService;
+    private final SchoolOpenAPI schoolOpenAPI;
 
     @GetMapping("/getSchoolInfo")
     public void getSchoolInfo(@RequestHeader(name = "X-AUTH-TOKEN") String token)throws IOException, ParseException{
         //UserResponse userResponse = provider.getUserResponse(token);
         //비회원은 조회가 안됨
-        schoolOpenAPIService.saveSchoolInfo();
+        schoolOpenAPI.saveSchoolInfo();
     }
 
     @PostMapping("/getSchoolDetail")

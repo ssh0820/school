@@ -1,8 +1,8 @@
-package com.zerobase.school.user.service.school;
+package com.zerobase.school.school.service;
 
-import com.zerobase.school.user.domain.entity.School;
-import com.zerobase.school.user.dto.SchoolDto;
-import com.zerobase.school.user.repository.SchoolRepository;
+import com.zerobase.school.school.domain.School;
+import com.zerobase.school.school.dto.SchoolDto;
+import com.zerobase.school.school.repository.SchoolRepository;
 import lombok.RequiredArgsConstructor;
 import org.json.simple.JSONObject;
 

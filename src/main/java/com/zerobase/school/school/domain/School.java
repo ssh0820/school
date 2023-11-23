@@ -1,4 +1,4 @@
-package com.zerobase.school.user.domain.entity;
+package com.zerobase.school.school.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

@@ -1,6 +1,7 @@
-package com.zerobase.school.user.service.school;
+package com.zerobase.school.school.application;
 
-import com.zerobase.school.user.dto.SchoolDto;
+import com.zerobase.school.school.dto.SchoolDto;
+import com.zerobase.school.school.service.SchoolService;
 import lombok.RequiredArgsConstructor;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -20,7 +21,7 @@ import java.util.List;
 
 @Service
 @RequiredArgsConstructor
-public class SchoolOpenAPIService {
+public class SchoolOpenAPI {
 
     private final SchoolService schoolService;
 
