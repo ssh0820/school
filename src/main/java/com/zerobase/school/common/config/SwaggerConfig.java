@@ -1,4 +1,4 @@
-package com.zerobase.school.config;
+package com.zerobase.school.common.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -13,7 +13,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @Configuration
 @EnableSwagger2
 public class SwaggerConfig {
-    //http://localhost:8081/swagger-ui/index.html
+    //http://localhost:8080/swagger-ui/index.html
     @Bean
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)

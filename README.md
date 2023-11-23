@@ -36,8 +36,11 @@
     6. 사용자 정보를 입력받아 저장하고(이메일, 이름, PW 등) 수정할 수 있게 한다.
     7. (사용자 등록시 이미 있는 이메일은 예외를 발생시킨다.)
 
+## API
+![API 명세서](docs/img/swagger.png)
+
 ## Architecture
-![ERD](docs/img/architecture.png)
+![Architecture](docs/img/architecture.png)
 
 ## ERD 
 ![ERD](docs/img/erd.png)
