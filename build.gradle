@@ -38,7 +38,7 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok'
 
 	//mariaDB
-	//implementation 'org.mariadb.jdbc:mariadb-java-client:2.1.2'
+	implementation 'org.mariadb.jdbc:mariadb-java-client:2.1.2'
 
 	//mysql
 	runtimeOnly 'com.mysql:mysql-connector-j'
