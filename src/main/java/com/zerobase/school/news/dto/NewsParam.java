@@ -3,14 +3,17 @@ package com.zerobase.school.news.dto;
 import com.zerobase.school.news.domain.Sort;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 import org.joda.time.DateTime;
 
 import java.util.List;
 
 public class NewsParam {
 
-    @Data
+    @Setter
+    @Getter
     @AllArgsConstructor
     @NoArgsConstructor
     public static class Request{
@@ -21,7 +24,8 @@ public class NewsParam {
 
     }
 
-    @Data
+    @Setter
+    @Getter
     @AllArgsConstructor
     @NoArgsConstructor
     public static class Response{
